@@ -1,0 +1,40 @@
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "img"
+    filename:
+      desktop: "grad.png"
+      mobile: "grad.png"
+
+  titleLogo:
+    path: "img"
+    filename: "logohq.webp"
+    alt: "RIG Logo"
+    height: 80px
+
+  title: "ORIGO 2025 Docs"
+  subtitle: A quick reference and guide to all things technical for ORIGO 2025
+
+  image:
+    path: "img" # path to image under configured assets directory. default 'images'
+    filename: "test.webp" # filename of your hero image (including file extension)
+    alt: "Header image" # Optional but recommended
+    boxShadow: true # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/"
+
+featureGrid:
+  enable: false
+
+imageText:
+  enable: false
+
+imageCompare:
+  enable: false

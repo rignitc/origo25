@@ -6,7 +6,7 @@
             <div class="card h-100 features feature-full-bg rounded p-0 overflow-hidden border-1">
 
                 {{ with .Resources.GetMatch .Params.cover }}
-                <img src="{{ .RelPermalink }}" class="card-img-top" alt="{{ .Title }}">
+                <img src="{{ .RelPermalink }}" class="card-img-top" alt="{{ $.Title }}">
                 {{ end }}
 
                 <div class="p-4 position-relative">
@@ -17,7 +17,12 @@
                     </span>
                     <div class="card-body p-0 content">
                         <p class="fs-5 fw-semibold card-title mb-1">{{ .Title }}</p>
+
+                        {{ with .Summary }}
+                        <p class="para card-text mb-0">{{ . | markdownify }}</p>
+                        {{ else }}
                         <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p>
+                        {{ end }}
                     </div>
                 </div>
 

@@ -9,7 +9,7 @@ A documentation website for ORIGO 2025 powered by [Hugo](https://gohugo.io/) and
 To run this project locally, ensure the following are installed:
 
 - [Git](https://git-scm.com/)
-- [Go](https://go.dev/) (version **1.21** or later)
+- [Go](https://go.dev/) (version **1.25.1** or later)
 - [Hugo (Extended Version)](https://gohugo.io/) (version **0.140.0** or later)
 
 ---
@@ -28,8 +28,8 @@ To run this project locally, ensure the following are installed:
 
 2. **Install Go**
     ```bash
-    wget https://go.dev/dl/go1.21.linux-amd64.tar.gz
-    sudo tar -C /usr/local -xzf go1.21.linux-amd64.tar.gz
+    wget https://go.dev/dl/go1.25.1.linux-amd64.tar.gz
+    sudo tar -C /usr/local -xzf go1.25.1.linux-amd64.tar.gz
     echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.bashrc
     source ~/.bashrc
     go version
@@ -55,9 +55,9 @@ To run this project locally, ensure the following are installed:
     git --version
     ```
 
-2. **Install Go (1.21 or later)**
+2. **Install Go (1.25.1 or later)**
     Download the installer from: [here](https://go.dev/dl/)
-    (e.g., go1.21.windows-amd64.msi)
+    (e.g., go1.25.1.windows-amd64.msi)
     Run installer → verify:
 
     ```powershell

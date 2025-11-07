@@ -30,7 +30,6 @@ AI Fundamentals and YOLO
 **Artificial Intelligence (AI)** refers to the simulation of human intelligence in machines. AI enables systems to perform tasks that typically require human cognitive abilities, such as reasoning, problem-solving, learning, and understanding natural language. AI systems analyze data, recognize patterns, and make decisions to achieve specific objectives.
 
 ![alt text](aimldl.png)
-
 ---
 
 ## **Categories of AI**
